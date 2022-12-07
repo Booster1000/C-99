@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>
+        Take My Voice Selfie
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="headings">Take My Voice Selfie<img id="g"
+                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvHuD3lUw2rzEWWCcKX-DENkmI3IQm5F-3eP_l7YgTQLilLeDbA_p7qdNBbG3jpalenk&usqp=CAU'>
+        </h1>
+        <hr>
+        <p style='color:red; font-family:"Comic Sans MS"; font-size:40px;'>Press Allow to the pop up as soon as possible
+            after clicking start button</p>
+        <div class="container">
+            <h1 class="headings">Say "take my selfie" </h1>
+            <h3 class="headings3">Your Voice Output</h3>
+            <textarea id="output" placeholder="Your Voice" readonly="true"></textarea>
+            <br><br>
+            <button class="btn btn-success" style="height:50px;width:300px;font-size:30px;"
+                onclick="start()">Start</button>
+            <h3 class="headings3">Press the start button</h3>
+        </div>
+        <br>
+
+        <div class="container">
+            <h3 class="headings4">Your Webcam : </h3>
+            <div id="camera"></div>
+            <h3 class="headings4">Your Selfie Will Display Here : </h3>
+            <div id="selfie"></div>
+        </div>
+        <script src="main.js"></script>
+    </center>
+</body>
+
+</html>

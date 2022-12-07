@@ -1,0 +1,67 @@
+body {
+    background-color: #ff1eff;
+    background-image: linear-gradient(0deg, #ff1eff 0%, #00e4ff 100%);
+}
+
+.container {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    box-shadow: 20px 20px 20px blue;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.headings {
+    color: rgb(226, 63, 226);
+    font-family: "Comic Sans MS";
+    font-size: 70px;
+}
+
+.headings3 {
+    color: rgb(132, 0, 255);
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+}
+
+.headings4 {
+    color: rgb(183, 0, 255);
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+}
+
+#g {
+    padding: 20px;
+    border-radius: 50px;
+}
+
+textarea {
+    height: 100px;
+    background-color: brown;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: white;
+    font-size: 40px;
+}
+
+textarea::placeholder {
+    color: white;
+    font-size: 39px;
+}
+
+#camera {
+    box-shadow: 5px 5px 30px rgb(255, 94, 0);
+    width: 420px;
+    height: 320px;
+}
+
+#selfie {
+    box-shadow: 5px 5px 30px rgb(255, 94, 0);
+    width: 420px;
+    height: 320px;
+}
+
+hr {
+    background-color: white;
+    height: 3px;
+}
